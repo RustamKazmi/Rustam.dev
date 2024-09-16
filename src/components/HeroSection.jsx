@@ -1,6 +1,10 @@
 import React from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
+import skillIcon1 from "../assets/images/skill-icons-1.svg"
+import skillIcon2 from "../assets/images/skill-icons-2.svg"
+import skillIcon3 from "../assets/images/skill-icons-3.svg"
+import skillIcon4 from "../assets/images/skill-icons-4.svg"
 
 const HeroSection = () => {
   return (
@@ -43,29 +47,29 @@ const HeroSection = () => {
           <li>
             <img
               className="skill-icon"
-              src="../images/skill-icons-1.svg"
-              alt=""
+              src={skillIcon1}
+              alt="html&css"
             />
           </li>
           <li>
             <img
               className="skill-icon"
-              src="../images/skill-icons-2.svg"
-              alt=""
+              src={skillIcon2}
+              alt="JS&TS"
             />
           </li>
           <li>
             <img
               className="skill-icon"
-              src="../images/skill-icons-3.svg"
-              alt=""
+              src={skillIcon3}
+              alt="React&Nextjs"
             />
           </li>
           <li>
             <img
               className="skill-icon"
-              src="../images/skill-icons-4.svg"
-              alt=""
+              src={skillIcon4}
+              alt="Tailwind&Sass"
             />
           </li>
         </ul>
