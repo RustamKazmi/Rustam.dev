@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: 🚀 Deploy
 
 on:
@@ -143,3 +144,6 @@ jobs:
           args: deploy --remote-only --build-arg COMMIT_SHA=${{ github.sha }} --app ${{ steps.app_name.outputs.value }}
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+=======
+
+>>>>>>> c7b38b7a32764c2ff049501025a580477e56cb75
