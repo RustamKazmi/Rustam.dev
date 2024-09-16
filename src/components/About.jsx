@@ -5,20 +5,20 @@ const About = () => {
     <div id="About" className=" my-[20vh] w-full p-2 sm:w-[72vw] flex flex-col md:flex-row mx-auto ">
       <div className="about-left relative w-full mb-[5rem] md:mb-0 md:w-[50%]">
         <div className="about-img w-[90%] h-[60vh] rounded-2xl overflow-hidden bg-slate-500">
-          <img className="h-full object-cover w-full" src="../images/about-img.jpg" alt="" />
+          <img className="h-full object-cover w-full" src="@/images/about-img.jpg" alt="" />
         </div>
         <div className="bg-white absolute flex justify-center  right-0 bottom-[-30px] rounded-full z-20">
           <div className="about-rotate-img">
             <img
               className="z-100 w-[12rem]"
-              src="../images/about-rotate.svg"
+              src="@/images/about-rotate.svg"
               alt=""
             />
           </div>
           <div className="absolute top-[3.3rem]">
             <img
               className=" w-16"
-              src="../images/working-emoji.jpg"
+              src="@/images/working-emoji.jpg"
               alt=""
             />
           </div>

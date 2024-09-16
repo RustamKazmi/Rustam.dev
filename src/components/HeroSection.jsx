@@ -21,7 +21,7 @@ const HeroSection = () => {
           </div>
           <p className="flex text-center md:text-start text-lg text-[#797878]">
             Hi, I'm Rustam Ali Kazmi. A passionate Front-end React Developer
-            based in Belgrade, Serbia. 📍
+            based in Lahore, Punjab. 📍
           </p>
           <div className="link-icons justify-center md:justify-start my-6 flex gap-3">
             <CiLinkedin className="text-[2rem] hover:text-blue-500 cursor-pointer" />
