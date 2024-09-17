@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
 }
-
 .hero-img{
     -webkit-animation: morph 8s ease-in-out infinite;
     animation: morph 8s ease-in-out infinite;
@@ -19,11 +18,13 @@
     background-size: cover;
     border: 3px solid #2d2e32;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    height: 22rem;
+    height: 20rem;
     position: relative;
     transition: all 1s ease-in-out;
-    width: 22rem;
+    width: 20rem;
 }
+
+
 
 @keyframes morph {
     0% {
@@ -61,5 +62,9 @@
 
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 768px) {
+    .hero-img{
+      height: 22rem;
+      width: 22rem;
+    }
   }

@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 function App() {
   return (
    <div className='overflow-x-hidden relative'>
+   
     <Navbar/>
     <HeroSection/>
     <About/>

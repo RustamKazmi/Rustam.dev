@@ -9,7 +9,7 @@ import skillIcon4 from "../assets/images/skill-icons-4.svg"
 const HeroSection = () => {
   return (
     <div id="Home" className="content w-full md:w-[79vw] mx-auto">
-      <div className="hero-main w-full md:w-[79vw] mt-[13vh] md:mb-[10vh] flex flex-col-reverse md:flex-row gap-10 md:gap-28 mx-auto">
+      <div className="hero-main w-full md:w-[79vw] mt-[4vh] md:mt-[13vh] md:mb-[10vh] flex flex-col-reverse md:flex-row gap-10 md:gap-28 mx-auto">
         <div className="heroLeft w-full md:w-[50%]">
           <div className="text-[2.2rem] flex flex-col md:inline-block w-full sm:text-[3.5rem] items-center md:text-[3.5rem] text-[#2D2E32] my-8 font-extrabold tracking-tight md:tracking-wide leading-[3.7rem]">
             <h1>Front-End React</h1>
