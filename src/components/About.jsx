@@ -31,8 +31,13 @@ const About = () => {
         <h3 className="text-[1.1rem] tracking-tight text-blue-500 font-bold">ABOUT ME</h3>
         <p className="text-[1.5rem] md:text-[1.8rem] font-bold text-[#333b42] leading-9">Front-end Developer <br />
         based in Lahore, Punjab 📍</p>
-        <p className="text-lg text-[#4D5B67]">Hey, my name is Rustam Ali Kazmi, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users.</p>
-        <p className="text-lg text-[#4D5B67]">My main stack currently is React in combination with Tailwind CSS and javascript.</p>
+<p className="text-lg text-[#4D5B67]">
+  I'm Rustam Ali Kazmi, a Frontend Developer with 1.5 years of hands-on experience working on real-time enterprise-level web applications.
+</p>
+<p className="text-lg text-[#4D5B67]">
+  I specialize in building scalable, maintainable, and performance-optimized frontends using modern framework technology like Angular and libary like React, JavaScript, and Tailwind CSS. I’ve worked extensively on integrating RESTful APIs, managing application state, and delivering seamless user experiences.
+</p>
+
       </div>
     </div>
   );

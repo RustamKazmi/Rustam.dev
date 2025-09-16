@@ -12,19 +12,15 @@ const HeroSection = () => {
       <div className="hero-main w-full md:w-[79vw] mt-[4vh] md:mt-[13vh] md:mb-[10vh] flex flex-col-reverse md:flex-row gap-10 md:gap-28 mx-auto">
         <div className="heroLeft w-full md:w-[50%]">
           <div className="text-[2.2rem] flex flex-col md:inline-block w-full sm:text-[3.5rem] items-center md:text-[3.5rem] text-[#2D2E32] my-8 font-extrabold tracking-tight md:tracking-wide leading-[3.7rem]">
-            <h1>Front-End React</h1>
+            <h1>Front-End </h1>
             <h1 className="flex items-center gap-4">
               {" "}
               Developer{" "}
-              <img
-                className="w-14"
-                src="https://www.stefantopalovic.com/static/media/waving.1bae5fcfb51082b5c2b4.png"
-                alt="image"
-              />
+              in Punjab
             </h1>
           </div>
           <p className="flex text-center md:text-start text-lg text-[#797878]">
-            Hi, I'm Rustam Ali Kazmi. A passionate Front-end React Developer
+            Hi, I'm Rustam Ali Kazmi. A passionate Front-end Developer
             based in Lahore, Punjab. 📍
           </p>
           <div className="link-icons justify-center md:justify-start my-6 flex gap-3">
