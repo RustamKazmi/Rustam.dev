@@ -1,10 +1,10 @@
-import React from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { FiGithub } from "react-icons/fi";
 import skillIcon1 from "../assets/images/skill-icons-1.svg"
 import skillIcon2 from "../assets/images/skill-icons-2.svg"
 import skillIcon3 from "../assets/images/skill-icons-3.svg"
 import skillIcon4 from "../assets/images/skill-icons-4.svg"
+import skillIcon5 from "../assets/images/skill-icons-5.svg"
 
 const HeroSection = () => {
   return (
@@ -12,15 +12,15 @@ const HeroSection = () => {
       <div className="hero-main w-full md:w-[79vw] mt-[4vh] md:mt-[13vh] md:mb-[10vh] flex flex-col-reverse md:flex-row gap-10 md:gap-28 mx-auto">
         <div className="heroLeft w-full md:w-[50%]">
           <div className="text-[2.2rem] flex flex-col md:inline-block w-full sm:text-[3.5rem] items-center md:text-[3.5rem] text-[#2D2E32] my-8 font-extrabold tracking-tight md:tracking-wide leading-[3.7rem]">
-            <h1>Front-End </h1>
+            <h1>Full-Stack</h1>
             <h1 className="flex items-center gap-4">
               {" "}
               Developer{" "}
-              in Punjab
+              in Lahore
             </h1>
           </div>
           <p className="flex text-center md:text-start text-lg text-[#797878]">
-            Hi, I'm Rustam Ali Kazmi. A passionate Front-end Developer
+            Hi, I'm Rustam Ali Kazmi. A passionate Full Stack Developer
             based in Lahore, Punjab. 📍
           </p>
           <div className="link-icons justify-center md:justify-start my-6 flex gap-3">
@@ -66,6 +66,13 @@ const HeroSection = () => {
               className="skill-icon"
               src={skillIcon4}
               alt="Tailwind&Sass"
+            />
+          </li>
+          <li>
+            <img
+              className="skill-icon"
+              src={skillIcon5}
+              alt="Angular&MySQL"
             />
           </li>
         </ul>
