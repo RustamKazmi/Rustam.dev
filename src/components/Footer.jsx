@@ -1,16 +1,35 @@
-import React from 'react'
 import { CiLinkedin } from 'react-icons/ci'
 import { FiGithub } from 'react-icons/fi'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-[#2D2E32] h-[25vh] text-white flex flex-col md:flex-row md:flex items-center md:justify-between px-3 md:px-20'>
-      <p className='text-md text-center md:text-left w-full font-bold'>Copyright &copy; 2025. All rights are reserved</p>
-      <div className="link-icons my-6 flex gap-3">
-            <CiLinkedin className="text-[2rem] hover:text-blue-500 cursor-pointer" />
-            <a target="blank" href="https://github.com/RustamKazmi"><FiGithub className="text-[2rem] hover:text-blue-500 cursor-pointer" /></a>
+    <footer className='w-full bg-gradient-to-br from-gray-900 to-gray-800 text-white py-8'>
+      <div className='max-w-7xl mx-auto px-6'>
+        <div className='flex flex-col md:flex-row items-center justify-between gap-6'>
+          <p className='text-sm md:text-base text-center md:text-left text-gray-300'>
+            Copyright &copy; 2025 <span className='font-semibold text-white'>Rustam Ali Kazmi</span>. All rights reserved.
+          </p>
+          <div className="flex gap-4">
+            <a 
+              href="https://www.linkedin.com/in/rustam-ali-kazmi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition-all duration-300 group"
+            >
+              <CiLinkedin className="text-2xl group-hover:scale-110 transition-transform" />
+            </a>
+            <a 
+              href="https://github.com/RustamKazmi" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300 group"
+            >
+              <FiGithub className="text-2xl group-hover:scale-110 transition-transform" />
+            </a>
           </div>
-    </div>
+        </div>
+      </div>
+    </footer>
   )
 }
 

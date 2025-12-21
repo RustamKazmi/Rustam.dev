@@ -8,74 +8,77 @@ import skillIcon5 from "../assets/images/skill-icons-5.svg"
 
 const HeroSection = () => {
   return (
-    <div id="Home" className="content w-full md:w-[79vw] mx-auto">
-      <div className="hero-main w-full md:w-[79vw] mt-[4vh] md:mt-[13vh] md:mb-[10vh] flex flex-col-reverse md:flex-row gap-10 md:gap-28 mx-auto">
-        <div className="heroLeft w-full md:w-[50%]">
-          <div className="text-[2.2rem] flex flex-col md:inline-block w-full sm:text-[3.5rem] items-center md:text-[3.5rem] text-[#2D2E32] my-8 font-extrabold tracking-tight md:tracking-wide leading-[3.7rem]">
-            <h1>Full-Stack</h1>
-            <h1 className="flex items-center gap-4">
-              {" "}
-              Developer{" "}
-              in Lahore
-            </h1>
+    <div id="Home" className="w-full py-12 md:py-20">
+      <div className="w-full mx-auto px-6">
+        {/* Hero Content */}
+        <div className="flex flex-col-reverse md:flex-row gap-12 md:gap-20 items-center mb-20">
+          <div className="w-full md:w-[55%] space-y-6">
+            <div className="text-center md:text-left">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl text-gray-900 font-extrabold tracking-tight leading-tight">
+                Full-Stack
+                <span className="block mt-2">
+                  Developer
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600"> in Lahore</span>
+                </span>
+              </h1>
+            </div>
+            <p className="text-center md:text-left text-lg md:text-xl text-gray-600 leading-relaxed">
+              Hi, I&apos;m <span className="font-semibold text-gray-900">Rustam Ali Kazmi</span>. A passionate Full Stack Developer
+              based in Lahore, Punjab. 📍
+            </p>
+            <div className="flex justify-center md:justify-start gap-4 pt-2">
+              <a 
+                href="https://www.linkedin.com/in/rustam-ali-kazmi" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-white border-2 border-gray-200 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all duration-300 group"
+              >
+                <CiLinkedin className="text-2xl text-gray-700 group-hover:text-blue-600 transition-colors" />
+              </a>
+              <a 
+                href="https://github.com/RustamKazmi" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 bg-white border-2 border-gray-200 rounded-lg hover:border-gray-800 hover:bg-gray-50 transition-all duration-300 group"
+              >
+                <FiGithub className="text-2xl text-gray-700 group-hover:text-gray-900 transition-colors" />
+              </a>
+            </div>
           </div>
-          <p className="flex text-center md:text-start text-lg text-[#797878]">
-            Hi, I'm Rustam Ali Kazmi. A passionate Full Stack Developer
-            based in Lahore, Punjab. 📍
-          </p>
-          <div className="link-icons justify-center md:justify-start my-6 flex gap-3">
-            <CiLinkedin className="text-[2rem] hover:text-blue-500 cursor-pointer" />
-            <a target="blank" href="https://github.com/RustamKazmi"><FiGithub className="text-[2rem] hover:text-blue-500 cursor-pointer" /></a>
+          <div className="w-full md:w-[45%] flex justify-center">
+            <div className="hero-img transform hover:scale-105 transition-transform duration-300"></div>
           </div>
         </div>
-        <div className="heroRight flex md:inline-block justify-center w-full md:w-[50%]">
-          <div className="hero-img"></div>
+
+        {/* Tech Stack Section */}
+        <div className="border-t border-gray-200 pt-12">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="text-center md:text-left">
+              <p className="text-xl font-bold text-gray-900 whitespace-nowrap">
+                Tech Stack
+              </p>
+            </div>
+            <div className="hidden md:block w-px h-12 bg-gray-300"></div>
+            <div className="md:hidden h-px w-full bg-gray-300"></div>
+            <ul className="flex justify-center flex-wrap gap-8 md:gap-10">
+              <li className="transform hover:scale-110 transition-transform duration-300">
+                <img className="skill-icon" src={skillIcon1} alt="HTML & CSS" />
+              </li>
+              <li className="transform hover:scale-110 transition-transform duration-300">
+                <img className="skill-icon" src={skillIcon2} alt="JavaScript & TypeScript" />
+              </li>
+              <li className="transform hover:scale-110 transition-transform duration-300">
+                <img className="skill-icon" src={skillIcon3} alt="React & Next.js" />
+              </li>
+              <li className="transform hover:scale-110 transition-transform duration-300">
+                <img className="skill-icon" src={skillIcon4} alt="Tailwind & Sass" />
+              </li>
+              <li className="transform hover:scale-110 transition-transform duration-300">
+                <img className="skill-icon" src={skillIcon5} alt="Angular & MySQL" />
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div className="skills mt-[15vh] md:mt-0 flex flex-col md:flex-row relative h-[8rem] items-center">
-        <div>
-        <p className="text-[1.4rem] md:w-36 font-semibold md:mr-7 h-fit text-slate-800 flex gap-6">
-          Tech Stack <span className="hidden md:inline-block text-slate-500">|</span>
-        </p>
-        <div className="md:hidden h-[1px] my-2 mb-5 w-full bg-[#303b42]"></div>
-        </div>
-        <ul className="flex justify-center md:justify-normal flex-wrap md:flex-nowrap gap-6 md:gap-10 w-full">
-          <li>
-            <img
-              className="skill-icon"
-              src={skillIcon1}
-              alt="html&css"
-            />
-          </li>
-          <li>
-            <img
-              className="skill-icon"
-              src={skillIcon2}
-              alt="JS&TS"
-            />
-          </li>
-          <li>
-            <img
-              className="skill-icon"
-              src={skillIcon3}
-              alt="React&Nextjs"
-            />
-          </li>
-          <li>
-            <img
-              className="skill-icon"
-              src={skillIcon4}
-              alt="Tailwind&Sass"
-            />
-          </li>
-          <li>
-            <img
-              className="skill-icon"
-              src={skillIcon5}
-              alt="Angular&MySQL"
-            />
-          </li>
-        </ul>
       </div>
     </div>
   );

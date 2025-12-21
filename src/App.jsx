@@ -8,12 +8,19 @@ import Footer from './components/Footer'
 function App() {
   return (
    <div className='overflow-x-hidden relative'>
-   
     <Navbar/>
-    <HeroSection/>
-    <About/>
+    
+    {/* Main content container with consistent max-width */}
+    <div className='max-w-7xl mx-auto px-6'>
+      <HeroSection/>
+      <About/>
+      <Contact/>
+    </div>
+    
+    {/* Projects section with its own background */}
     <Projects/>
-    <Contact/>
+    
+    {/* Footer spans full width */}
     <Footer/>
    </div>
   )

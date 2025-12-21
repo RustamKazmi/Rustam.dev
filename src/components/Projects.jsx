@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Building2, Truck, Briefcase, FolderOpen } from 'lucide-react'
+import { Building2, Truck, Briefcase } from 'lucide-react'
 import ImageLightbox from './ImageLightbox'
 import ProjectCard from './ProjectCard'
 import memershipDashboardImg from '../assets/screenshots/membership-dashboard.png'
@@ -77,17 +77,17 @@ const Projects = () => {
         {/* Header Section */}
         <div className='text-center mb-16'>
    
-          <h2 className='text-5xl font-bold text-gray-900 mb-6 leading-tight'>
+          <h2 className='text-4xl font-bold text-gray-900 mb-6 leading-tight'>
             Featured <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600'>Projects</span>
           </h2>
-          <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
+          <p className='text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed'>
             Discover my latest work in web development, showcasing modern technologies, 
             innovative solutions, and user-centric design principles
           </p>
         </div>
 
         {/* Projects Grid - 2 columns on desktop, 1 on mobile */}
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           {projects.map((project) => (
             <ProjectCard 
               key={project.id} 
